@@ -21,6 +21,7 @@
     gnome-shell-extensions
     gnome-calculator
     gnome-connections
+    gnome-contacts
     gnome-disk-utility
     gnome-font-viewer
     gnome-logs
@@ -249,6 +250,7 @@
       name = "Utilities";
       apps = [
         "org.gnome.Calculator.desktop"
+        "org.gnome.Contacts.desktop"
         "org.gnome.Snapshot.desktop"
         "org.gnome.Papers.desktop"
         "org.gnome.TextEditor.desktop"
