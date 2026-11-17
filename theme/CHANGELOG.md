@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## theme-v0.10.1 - 2026-11-17
+#### Bug Fixes
+- (**theme**) style toasts and app notifications with the Nord palette - (754e4cb) - FjellOverflow
+
+- - -
+
 ## theme-v0.10.0 - 2026-11-17
 #### Features
 - add GNOME Contacts and icon - (01355da) - FjellOverflow
