@@ -88,3 +88,29 @@ messagedialog.csd .dialog-action-area button {
   border-radius: 9px;
   -gtk-outline-radius: 7px;
 }
+
+.app-notification {
+  background: {{ colors.raised }};
+  color: {{ colors.fg_bright }};
+}
+
+.app-notification button {
+  color: {{ colors.fg_bright }};
+  background-image: none;
+  background-color: alpha({{ colors.fg_bright }}, 0.1);
+  text-shadow: none;
+  -gtk-icon-shadow: none;
+}
+
+.app-notification button.flat {
+  background-color: transparent;
+}
+
+.app-notification button:hover {
+  background-color: alpha({{ colors.fg_bright }}, 0.15);
+}
+
+.app-notification button:active,
+.app-notification button:checked {
+  background-color: alpha({{ colors.fg_bright }}, 0.3);
+}

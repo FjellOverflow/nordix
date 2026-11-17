@@ -14,3 +14,9 @@ window.dialog.message.csd .dialog-action-area > button {
   padding: 6px 16px;
   border-radius: 9px;
 }
+
+toast,
+.app-notification {
+  background: {{ colors.raised }};
+  color: {{ colors.fg_bright }};
+}
