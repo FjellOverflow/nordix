@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## theme-v0.10.0 - 2026-11-17
+#### Features
+- add GNOME Contacts and icon - (01355da) - FjellOverflow
+
+- - -
+
 ## theme-v0.9.0 - 2026-11-12
 #### Features
 - add Planify flatpak and icon - (a03afb6) - FjellOverflow
